@@ -25,7 +25,9 @@
                             
                         </span>
                         <span class="gray-color-2">إيقاف</span><br/>
-                        <span>To track progress of search, see storage/logs</span>
+                        <span>To track progress of search, see storage/logs<br/>
+                            then refresh page
+                        </span>
                     </button>
                 </div>
 
