@@ -1,4 +1,6 @@
 # Steps to install & Run the project
+
+```bash
 1- git clone https://github.com/a1bdelrahmanrezk/AI-YouTube-Course-Scraper.git
 2- composer install
 3- cp .env.example .env
@@ -7,6 +9,7 @@
 6- optional, set your credentials, or credentials of my acc is already in your .env
 7- php artisan serve
 8- php artisan queue:work // important for job
+```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
