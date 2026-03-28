@@ -35,4 +35,15 @@ return [
         ],
     ],
 
+    'ai_agent' => [
+        'key' => env('AI_KEY'),
+        'min_number_of_generated_titles' => 10,
+        'max_number_of_generated_titles' => 20,
+    ],
+
+    'youtube' => [
+        'key' => env('YOUTUBE_KEY'),
+        'max_results' => 2,
+    ],
+
 ];

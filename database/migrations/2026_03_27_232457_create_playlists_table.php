@@ -13,6 +13,15 @@ return new class extends Migration
     {
         Schema::create('playlists', function (Blueprint $table) {
             $table->id();
+            $table->string('playlist_id')->unique();
+            $table->string('title');
+            $table->text('description')->nullable();
+            $table->string('thumbnail')->nullable();
+            $table->string('channel_name')->nullable();
+            $table->string('category')->nullable();
+            $table->integer('video_count')->default(0);
+            $table->bigInteger('total_views')->default(0);
+            $table->integer('total_duration')->default(0); // Seconds
             $table->timestamps();
         });
     }

@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #D2463C;
+    --secondary-color: #141E37;
+    --gray-color: #6f7278;
+    --gray-color-2: #7D7D7D;
+    --bolder-fields-color: #E6E6EB;
+    --body-bg-color: #F5F5F5;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.gray-color {
+    color: var(--gray-color);
+}
+
+.gray-color-2 {
+    color: var(--gray-color-2);
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.scrapping-section {
+    margin-top: -35px;
+}
+
+.bolder-fields {
+    border: 2px solid var(--bolder-fields-color);
+}
+
+.bolder-fields:hover {
+    border: 2px solid var(--gray-color);
+}
+
+.radius-12 {
+    border-radius: 12px;
+}
+.radius-3 {
+    border-radius: 3px !important;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.badge{
+    background-color: white;
+    color: var(--gray-color-2);
+    border-radius: 50rem;
+    border:none;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.badge.active{
+    background-color: var(--primary-color);
+    color: white;
+    border:none;
+}
+
+/* Pagination Styling */
+.page-link {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 8px 16px;
+    margin: 0 2px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.page-link:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    color: #333;
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.page-item.disabled .page-link {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Course Card Styles */
+.course-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-card img {
+    height: 160px;
+    object-fit: cover;
+}
+
+.bg-light-orange {
+    background-color: #fff0f0;
+}
+
+.smallest {
+    font-size: 0.75rem;
+}
+

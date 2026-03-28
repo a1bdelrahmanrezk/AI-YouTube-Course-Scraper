@@ -1,0 +1,1 @@
+<script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.js') }}"></script>
