@@ -7,6 +7,11 @@
 4- php artisan key:generate
 5- php artisan migrate
 6- optional, set your credentials, or credentials of my acc is already in your .env
+    or paste this in .env
+        YOUTUBE_KEY=AIzaSyB3BuxO0RFN4bstPq1EaXJiAfILYOA1cIA
+        AI_AGENT=openrouter
+        AI_KEY=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
+        AI_DEEPSEEK=sk-16a3d059cb2a46349233d492d9d7026b
 7- php artisan serve
 8- php artisan queue:work // important for job
 ```
